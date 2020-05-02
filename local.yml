@@ -10,5 +10,6 @@
     - include: tasks/packages.yml
     - include: tasks/gnome.yml
   roles:
-    - include: roles/extensions.yml
     become_user: elopez
+    - include: roles/extensions.yml
+  
