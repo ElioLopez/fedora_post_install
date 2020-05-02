@@ -13,7 +13,7 @@
     - gnome-tweak-tool
     - python3-devel
 - pip:
-  name: psutil
+    name: psutil
     extra_args: --user    
 - name: Remove Packages
   yum:
