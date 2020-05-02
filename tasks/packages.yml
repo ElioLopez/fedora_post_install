@@ -15,4 +15,4 @@
   yum:
     name:
     - rythmbox
-  state: absent
+    state: absent
