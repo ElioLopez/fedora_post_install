@@ -11,8 +11,12 @@
     - gimp-paint-studio
     - gnome-builder
     - gnome-tweak-tool
+    - python3-devel
+- pip:
+  name: psutil
+    extra_args: --user    
 - name: Remove Packages
   yum:
     name:
-    - rythmbox
+    - rhythmbox
     state: absent
