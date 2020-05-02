@@ -1,6 +1,6 @@
 - role: jaredhocutt.gnome_extensions
-  become_us  
-vars:
+  become_user: elopez
+  vars:
     gnome_extension_ids:
       - 6
       - 906
