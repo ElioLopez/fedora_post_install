@@ -1,10 +1,6 @@
 - name: Install arc theme
   yum: name=arc-theme 
 
-- name: Set lock screen background
-  become_user: elopez
-  dconf: key="/org/gnome/desktop/screensaver/picture-uri" value="'file:///home/jay/.lockscreen.jpg'"
-
 - name: Set GTK theme
   become_user: elopez
   dconf: key="/org/gnome/desktop/interface/gtk-theme" value="'Arc'"
