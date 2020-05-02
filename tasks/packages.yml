@@ -1,0 +1,13 @@
+- name: Install packages
+  apt: name={{item}}
+  with_items:
+    - htop
+    - mc
+    - tmux
+    - gimp
+    - gimp-data-extras
+    - gimp-dbp
+    - gimp-save-for-web
+    - gimp-paint-studio
+    - gnome-builder
+    - gnome-tweak-tool
