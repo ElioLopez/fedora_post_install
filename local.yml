@@ -5,9 +5,11 @@
     - name: update repositories
       yum: update_cache=yes
       changed_when: False
+  
   tasks:
     - include: tasks/users.yml
     - include: tasks/packages.yml
     - include: tasks/gnome.yml
+
   roles:
-    - inclue: roles/extensions.yml
+    - include: roles/extensions.yml
