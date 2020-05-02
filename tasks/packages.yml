@@ -1,5 +1,5 @@
 - name: Install packages
-  yum:
+  dnf:
     name:
     - htop
     - mc
@@ -12,8 +12,9 @@
     - gnome-builder
     - gnome-tweak-tool
     - python3-devel
-- name: Remove Packages
-  yum:
+    state: latest
+    - name: Remove Packages
+  dnf:
     name:
     - rhythmbox
     - firefox

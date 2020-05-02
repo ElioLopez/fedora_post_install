@@ -1,3 +1,6 @@
+- name: Install python-psutil package
+  yum: name=python-psutil
+
 - name: Install arc theme
   yum: name=arc-theme 
 
