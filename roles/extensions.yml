@@ -1,0 +1,7 @@
+- role: jaredhocutt.gnome_extensions
+  become_us  
+vars:
+    gnome_extension_ids:
+      - 6
+      - 906
+      - 307     
