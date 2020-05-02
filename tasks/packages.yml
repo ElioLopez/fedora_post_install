@@ -11,3 +11,8 @@
     - gimp-paint-studio
     - gnome-builder
     - gnome-tweak-tool
+- name: Remove Packages
+  yum:
+    name:
+    - rythmbox
+  state: absent
