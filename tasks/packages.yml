@@ -13,7 +13,7 @@
     - gnome-tweak-tool
     - python3-devel
     state: latest
-    - name: Remove Packages
+- name: Remove Packages
   dnf:
     name:
     - rhythmbox
