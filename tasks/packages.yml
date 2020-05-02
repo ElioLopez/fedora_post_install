@@ -1,6 +1,6 @@
 - name: Install packages
-  dnf:
-    name:
+  yum: name={{item}}
+  with_items:
     - htop
     - mc
     - tmux
@@ -11,8 +11,4 @@
     - gimp-paint-studio
     - gnome-builder
     - gnome-tweak-tool
-- name: Remove Packages
-  dnf:
-    name:
-    - rhythmbox
-    state: absent
+  
