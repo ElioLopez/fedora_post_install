@@ -9,9 +9,5 @@
     - include: tasks/users.yml
     - include: tasks/packages.yml
     - include: tasks/gnome.yml
-- roles: jaredhocutt.gnome_extensions
-    vars:
-      gnome_extension_ids:
-        - 6
-        - 906
-        - 307     
+  roles:
+    - inclue: roles/extnsions.yml
