@@ -10,4 +10,4 @@
     - include: tasks/packages.yml
     - include: tasks/gnome.yml
   roles:
-    - inclue: roles/extnsions.yml
+    - inclue: roles/extensions.yml
