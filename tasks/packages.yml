@@ -11,11 +11,18 @@
     - gimp-paint-studio
     - gnome-builder
     - gnome-tweak-tool
+<<<<<<< HEAD
     - python3-devel
     state: latest
+=======
+>>>>>>> parent of 2a0902e... pip add
 - name: Remove Packages
   dnf:
     name:
+<<<<<<< HEAD
     - rhythmbox
     - firefox
+=======
+    - rythmbox
+>>>>>>> parent of 2a0902e... pip add
     state: absent
