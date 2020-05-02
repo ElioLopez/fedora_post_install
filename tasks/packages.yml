@@ -15,5 +15,4 @@
   dnf:
     name:
     - rhythmbox
-    - firefox
     state: absent
